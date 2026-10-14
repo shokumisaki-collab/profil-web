@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rasyid Ramadhan</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #00BFFF;
+    color: #f7f2ff;
+    line-height: 1.7;
+}
+
+nav {
+    background: #1b1230;
+    padding: 18px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #d8b4fe;
+    text-decoration: none;
+    margin: 12px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #24113b, #6939a3);
+}
+
+header img {
+    width: 220px;
+    max-height: 320px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 20px #a78bfa);
+}
+
+h1 {
+    font-size: 42px;
+    color: #e9d5ff;
+}
+
+h2 {
+    color: #191970;
+}
+
+section {
+    padding: 35px 8%;
+}
+
+.card {
+    background: #211632;
+    border: 1px solid #604080;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #604080;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #38234f;
+    color: #e9d5ff;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    object-fit: contain;
+    background: #211632;
+    border-radius: 10px;
+}
+
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 10px;
+}
+
+a {
+    color: #191970;
+}
+
+footer {
+    text-align: center;
+    background: #08050f;
+    color: #191970;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 25px 5%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#profil">Profil</a>
+    <a href="#kemampuan">Kemampuan</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#video">Video</a>
+</nav>
+
+<header>
+    <p>NEPHTHYS</p>
+    <h1>Rasyid Ramadhan Prihadianto</h1>
+
+    <img
+        src="IMG_0605.jpg"
+        alt="Ilustrasi Rasyid Ramadhan"
+    >
+
+    <p>Mahasiswa Teknik Logistik semester 5.</p>
+</header>
+
+<main>
+
+<section id="profil">
+    <h2>Perkenalan Karakter</h2>
+
+    <div class="card">
+        <p>
+            Rasyid Ramadhan Prihadianto adalah mahasiswa teknik logistik
+            yang berkuliah di Universitas Pendidikan Indonesia di Bumi
+            Siliwangi
+        </p>
+
+        <p>
+            Ia memiliki perawakan kecil mengunakan kacamata
+        </p>
+    </div>
+
+    <h2>Informasi Karakter</h2>
+
+    <table>
+        <tr>
+            <th>Informasi</th>
+            <th>Keterangan</th>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>Rasyid Ramadhan Prihadianto</td>
+        </tr>
+        <tr>
+            <td>Umur</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Asal</td>
+            <td>Bandung</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>Laki Laki</td>
+        </tr>
+        <tr>
+            <td>Ciri Khas</td>
+            <td>Kacamata, Tubuh Kecil</td>
+        </tr>
+        <tr>
+            <td>Ulang Tahun</td>
+            <td>03 Oktober 2006</td>
+        </tr>
+    </table>
+</section>
+
+<section id="kemampuan">
+    <h2>Kemampuan</h2>
+
+    <div class="card">
+        <h3>Kerjasama Tim</h3>
+        <p>
+            Memberikan dukungan dan dapat bekerja sama dengan baik untuk tim
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Bahasa Jepang</h3>
+        <p>
+            Bisa berbicara dan membaca terkait bahasa jepang
+        </p>
+    </div>
+
+    <h2>Hobi dan Ketertarikan</h2>
+    <ul>
+        <li>Menggambar</li>
+        <li>Menulis Novel</li>
+        <li>Menonton Anime</li>
+        <li>Bermain Game</li>
+    </ul>
+</section>
+
+<section id="galeri">
+    <h2>Galeri Gambar</h2>
+
+    <div class="gallery">
+        <img
+            src="IMG_20250629_171936.jpg"
+            alt="Galeri Rasyid Ramadhan"
+        >
+
+        <img
+            src="IMG_20250629_172028.jpg"
+            src="IMG_20250629_172105.jpg"
+            alt="Galeri Nephthys"
+        >
+        <img
+            src="IMG_20250629_172105.jpg""
+            alt="Galeri Nephthys"
+        >
+
+    </div>
+
+</section>
+
+<section id="video">
+    <h2>Video Karakter kesukaan Rasyid</h2>
+
+    <p>
+        Tonton demo karakter Raiden Shogun melalui video YouTube.
+    </p>
+
+    <iframe
+        class="video"
+        src="https://www.youtube.com/embed/SehwdINNDcWyTtpm"
+        title="Karakter kesukaan saya"
+        allowfullscreen>
+    </iframe>
+
+    <p>
+        Jika video tidak muncul,
+        <a href="https://www.youtube.com/watch?v=mvrW4aKwAXw"
+           target="_blank" rel="noopener noreferrer">
+            buka video di YouTube
+        </a>.
+    </p>
+</section>
+
+<section>
+    <h2>Kebenaran</h2>
+
+    <div class="card">
+        <blockquote>
+            "Only through Eternity are you closest to the Heavenly Principles ~RAIDEN EI."
+        </blockquote>
+
+        <p>
+            Komunikasi merupakan aspek penting dalam suatu peristiwa yang menyebabkan 
+            kondisi menjadi lebih baik atau buruk
+        </p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>THE SPECIAL HUMAN OF SELF FICTION</p>
+    <p>Website Perkenalan Karakter Rasyid Ramadhan Prihadianto</p>
+    <p>© 2026 | Fan-made website</p>
+</footer>
+
+</body>
+</html>
